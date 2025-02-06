@@ -26,15 +26,17 @@
         "newlines-between": "always"
       }
     ],
-    "import/no-unresolved": "error"
+    "import/no-unresolved": "error",
+    "react/jsx-pascal-case": "error"
   },
   "settings": {
     "react": {
-      "version": "detect" // Automatically detect the react version
+      "version": "detect"
     },
     "import/resolver": {
       "node": {
-        "paths": ["src"]
+        "paths": ["src"],
+        "extensions": [".js", ".jsx"]
       }
     }
   }

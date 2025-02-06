@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+
 import { setAll, setNonstop, setOneTransfer, setTwoTransfers, setThreeTransfers, setNone } from '../../actions/actions'
 import styles from './Filters.module.scss'
 import { fetchSearchId } from '../../api/api' // Исправленный импорт

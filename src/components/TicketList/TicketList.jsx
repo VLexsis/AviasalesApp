@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+
 import Ticket from '../Ticket/Ticket'
 import styles from './TicketList.module.scss'
 import { fetchSearchId, fetchTickets } from '../../api/api'

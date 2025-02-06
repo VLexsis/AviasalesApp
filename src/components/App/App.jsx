@@ -1,11 +1,8 @@
 import React from 'react'
 
-// Импорты компонентов
 import Filters from '../Filters/Filters'
 import Sorting from '../Sorting/Sorting'
 import TicketList from '../TicketList/TicketList'
-
-// Импорты стилей и изображений
 import styles from './App.module.scss'
 import logo from './img/Logo.svg'
 
