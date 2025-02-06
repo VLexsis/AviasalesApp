@@ -18,6 +18,12 @@
     text-transform: uppercase;
 }
 
+@media (max-width: 625px) {
+    .buttonShowMore {
+        width: 310px;
+    }
+}
+
 .messageNotFound {
     color: #2196f3;
     font-family: Open Sans;

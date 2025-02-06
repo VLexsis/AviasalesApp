@@ -26,6 +26,11 @@ button {
     border-color: #2196f3;
 }
 
+button:hover {
+    background: #2196f3 !important;
+    color: #ffffff;
+    border-color: #2196f3;
+}
 button:first-child {
     border-radius: 8px 0 0 8px;
 }
