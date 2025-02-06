@@ -1,0 +1,35 @@
+.sorting {
+    display: flex;
+    margin-bottom: 20px;
+    max-width: 502px;
+}
+
+button {
+    flex: 1;
+    color: rgb(74, 74, 74);
+    font-family: Open Sans;
+    padding: 10px;
+    width: 168px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #ffffff;
+    border: 1px solid #dfe5ec;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.active {
+    background: #2196f3 !important;
+    color: #ffffff;
+    border-color: #2196f3;
+}
+
+button:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+button:last-child {
+    border-radius: 0 8px 8px 0;
+}

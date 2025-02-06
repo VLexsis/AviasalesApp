@@ -1,0 +1,36 @@
+.ticketsContainer {
+    padding: 0;
+    max-width: 502px;
+}
+
+.buttonShowMore {
+    border-radius: 5px !important;
+    background: rgb(33, 150, 243);
+    width: 502px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.messageNotFound {
+    color: #2196f3;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 625px) {
+    .messageNotFound {
+        font-size: 12px;
+    }
+}
